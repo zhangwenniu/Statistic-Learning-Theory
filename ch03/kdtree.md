@@ -28,4 +28,14 @@ Data: 2 5 is labeled as 1, poll num is  2.
 ### 更新时间
 2021/2/8 01:49
 ### 更新内容
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;添加了使用graphviz绘制KD二叉树的代码至kdtree.h，并更新了部分注释内容。使用方法为生成KD树实例kdt之后，调用kdt.drawKDTree(kdt.head, "./out.dot");即可。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;添加了使用graphviz绘制KD二叉树的代码至kdtree.h，并更新了部分注释内容。使用方法为生成KD树实例kdt之后，调用kdt.drawKDTree(kdt.head, "./out.dot");生成.dot文件。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用graphviz需要安装该文件，打开[graphviz安装包](http://www.graphviz.org/download/)，依据不同平台下载最新版本的内容，将graphviz安装后的/bin安装到系统路径下并重启系统以使得Path生效。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;接下来，在.dot文件的所在目录下，使用命令行代码<br>
+```cpp
+dot out.dot -Tsvg -okdtree.svg
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;即可生成svg图像。使用命令行代码<br>
+```cpp
+cpp dot out2.dot -Tpdf -okdtree.pdf
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;即可生成图像对应的pdf文档。<br>
