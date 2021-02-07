@@ -36,6 +36,6 @@ dot out.dot -Tsvg -okdtree.svg
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;即可生成svg图像。使用命令行代码<br>
 ```cpp
-cpp dot out2.dot -Tpdf -okdtree.pdf
+dot out2.dot -Tpdf -okdtree.pdf
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;即可生成图像对应的pdf文档。<br>
