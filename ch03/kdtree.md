@@ -25,3 +25,7 @@ Each node index is 3, distance is 2.828427. data is: 4 7
 Each node index is 0, distance is 2.000000. data is: 2 3
 Data: 2 5 is labeled as 1, poll num is  2.
 ```
+### 更新时间
+2021/2/8 01:49
+### 更新内容
+添加了使用graphviz绘制KD二叉树的代码至kdtree.h，并更新了部分注释内容。使用方法为生成KD树实例kdt之后，调用kdt.drawKDTree(kdt.head, "./out.dot");即可。
