@@ -1,4 +1,5 @@
-本章内容为李航《统计学习方法》第三章K近邻算法的C++实现，关于K近邻算法的详细解释，参见我的博客[《机器学习（3） K近邻算法（KNN）介绍及C++实现》](https://blog.csdn.net/ProfSnail/article/details/113753467)。
+# 简介
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本章内容为李航《统计学习方法》第三章K近邻算法的C++实现，关于K近邻算法的详细解释，参见我的博客[《机器学习（3） K近邻算法（KNN）介绍及C++实现》](https://blog.csdn.net/ProfSnail/article/details/113753467)。
 ### 更新时间
 2021/2/7 13:53
 ### 更新内容
@@ -43,4 +44,8 @@ dot out2.dot -Tpdf -okdtree.pdf
 ### 更新时间
 2021/2/9 12:49
 ### 更新内容
-博客[机器学习（3） K近邻算法（KNN）介绍及C++实现](https://blog.csdn.net/ProfSnail/article/details/113753467)内容同步已更新。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;博客[机器学习（3） K近邻算法（KNN）介绍及C++实现](https://blog.csdn.net/ProfSnail/article/details/113753467)内容同步已更新。
+### 更新时间
+2021/2/9 14:48
+### 更新内容
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;博客[Python数据分析(02) graphviz绘制KD二叉查找树](https://blog.csdn.net/ProfSnail/article/details/113769110)内容同步已更新。并上传了[drawPic.py](./drawPic.py)的源代码。
